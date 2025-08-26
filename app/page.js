@@ -224,10 +224,10 @@ export default function Home() {
           <p>Dedicated educators committed to student success</p>
           <div className="row g-4 mt-4">
             {[
-              { name: "Dr. Sarah Chen", dept: "Mathematics Department" },
-              { name: "Prof. Michael Rodriguez", dept: "Science Department" },
-              { name: "Ms. Emily Watson", dept: "English Department" },
-              { name: "Mr. David Kim", dept: "Social Studies" },
+              { name: "Mr. Himanshu Singh", dept: "Principal" },
+              { name: "Mr. Ajay Dubey", dept: "Mathematics Lecturer" },
+              { name: "Mo. Akif", dept: "Physics Lecturer" },
+              { name: "Mo. Shah Alam", dept: "Chemistry Lecturer" },
             ].map((teacher, i) => (
               <div className="col-md-3" key={i}>
                 <Image

@@ -12,11 +12,11 @@ export default function FacultyPage() {
   const facultyMembers = [
     {
       id: 1,
-      name: "Dr. Anita Sharma",
-      designation: "Principal & Director",
+      name: "Mr. Himanshu Singh",
+      designation: "Principal",
       image: "/faculty/principal.jpg",
       description:
-        "With 20+ years of experience in education, Dr. Sharma has led the institution towards academic excellence and holistic growth.",
+        "With 20+ years of experience in education, He has led the institution towards academic excellence and holistic growth.",
       social: {
         facebook: "#",
         twitter: "#",
@@ -26,11 +26,11 @@ export default function FacultyPage() {
     },
     {
       id: 2,
-      name: "Prof. Rajesh Kumar",
-      designation: "Head of Science Department",
+      name: "Mr. Ajay Dubey",
+      designation: "Head of Mathematics",
       image: "/faculty/rajesh.jpg",
       description:
-        "Prof. Rajesh specializes in Physics and Chemistry, inspiring students with innovative teaching methods.",
+        "He specializes in Mathematics, inspiring students with innovative teaching methods.",
       social: {
         facebook: "#",
         twitter: "#",
@@ -40,11 +40,11 @@ export default function FacultyPage() {
     },
     {
       id: 3,
-      name: "Ms. Priya Nair",
-      designation: "Head of Arts Department",
+      name: "Mo. Shah Alam",
+      designation: "Chemistry Lecturer",
       image: "/faculty/priya.jpg",
       description:
-        "Ms. Priya encourages creativity and cultural awareness, guiding students in literature, fine arts, and music.",
+        "He brings a passion for Chemistry, making complex concepts accessible and engaging.",
       social: {
         facebook: "#",
         twitter: "#",
