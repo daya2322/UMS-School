@@ -21,7 +21,7 @@ export default function Programs() {
           <div className="col-md-4">
             <div className="card h-100 shadow-sm">
               <Image
-                src="/programs/primary.jpg"
+                src="/elementryschool.jpg"
                 className="card-img-top"
                 alt="Primary School"
                 width={500}
@@ -42,7 +42,7 @@ export default function Programs() {
           <div className="col-md-4">
             <div className="card h-100 shadow-sm">
               <Image
-                src="/programs/middle.jpg"
+                src="/middleschool.jpg"
                 className="card-img-top"
                 alt="Middle School"
                 width={500}
@@ -62,7 +62,7 @@ export default function Programs() {
           <div className="col-md-4">
             <div className="card h-100 shadow-sm">
               <Image
-                src="/programs/high.jpg"
+                src="/highschool.jpg"
                 className="card-img-top"
                 alt="High School"
                 width={500}

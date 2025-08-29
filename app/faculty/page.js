@@ -14,7 +14,7 @@ export default function FacultyPage() {
       id: 1,
       name: "Mr. Himanshu Singh",
       designation: "Principal",
-      image: "/faculty/principal.jpg",
+      image: "/faculty1.jpg",
       description:
         "With 20+ years of experience in education, He has led the institution towards academic excellence and holistic growth.",
       social: {
@@ -27,8 +27,8 @@ export default function FacultyPage() {
     {
       id: 2,
       name: "Mr. Ajay Dubey",
-      designation: "Head of Mathematics",
-      image: "/faculty/rajesh.jpg",
+      designation: "Mathematics Lecturer",
+      image: "/faculty2.jpg",
       description:
         "He specializes in Mathematics, inspiring students with innovative teaching methods.",
       social: {
@@ -42,7 +42,7 @@ export default function FacultyPage() {
       id: 3,
       name: "Mo. Shah Alam",
       designation: "Chemistry Lecturer",
-      image: "/faculty/priya.jpg",
+      image: "/faculty4.jpg",
       description:
         "He brings a passion for Chemistry, making complex concepts accessible and engaging.",
       social: {
@@ -77,7 +77,7 @@ export default function FacultyPage() {
                   width={300}
                   height={300}
                   className="card-img-top rounded-circle mx-auto mt-3"
-                  style={{ width: "200px", height: "200px", objectFit: "cover" }}
+                  style={{ width: "200px", height: "200px", objectFit: "100%" }}
                 />
                 <div className="card-body">
                   <h5 className="card-title">{faculty.name}</h5>

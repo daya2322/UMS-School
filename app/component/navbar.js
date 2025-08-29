@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -37,7 +37,7 @@ export default function Navbar() {
 
           {/* Right side - Social Media */}
           <div className="d-flex gap-3">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white">
+            <a href="https://www.facebook.com/share/g/1DFFVxuRv8/" target="_blank" rel="noopener noreferrer" className="text-white">
               <FaFacebookF />
             </a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white">
@@ -46,8 +46,8 @@ export default function Navbar() {
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white">
               <FaInstagram />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white">
-              <FaLinkedinIn />
+            <a href="https://youtube.com/@wayofsuccessfullyourlife?si=jue8xda22rtDfEm5" target="_blank" rel="noopener noreferrer" className="text-white">
+              <FaYoutube />
             </a>
           </div>
         </div>
